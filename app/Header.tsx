@@ -4,8 +4,9 @@ import decore from '../public/assets/Decore.svg';
 import traveller from '../public/assets/Traveller2.png';
 import orange_decore from '../public/assets/orange_decore.svg';
 import ellipse from '../public/assets/ellipse.svg';
-import { Volkhov, Poppins } from 'next/font/google'
+import play from '../public/assets/play.svg';
 import Link from 'next/link';
+import { Volkhov, Poppins } from 'next/font/google'
 
 const volkhov = Volkhov({ weight: '700', subsets: ['latin'] })
 const poppins = Poppins({ weight: ['400', '500', '600', '700', '800'], subsets: ['latin'] })
@@ -33,8 +34,13 @@ const Header = () => {
               Built Wicket longer admire do barton vanity itself do in it. Preferred to <br /> sportsmen it engrossed listening. Park gate sell they west hard for the.
             </p>
             <div className='flex gap-11'>
-              <Link href="/">Find out more</Link>
-              <Link href="/">Play Demo</Link>
+              <Link href="/" className='text-lg py-4 px-6 rounded-lg bg-[#F1A501] hover:bg-[#f1a501e0] text-white shadow-xl shadow-[#F1A501]/40'>Find out more</Link>
+              <button type="button" className='flex items-center gap-5'>
+                <div className='rounded-full w-12 h-12 bg-[#DF6951] hover:bg-[#be5a46] shadow-xl shadow-[#DF6951]/40 flex items-center justify-center'>
+                  <Image src={play} alt="Play icon" />
+                </div>
+                <span className='text-[#686D77] font-medium text-lg'>Play Demo</span>
+              </button>
             </div>
           </div>
         </div>
