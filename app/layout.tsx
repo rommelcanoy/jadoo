@@ -1,7 +1,7 @@
 import './globals.css'
 import type { Metadata } from 'next'
 import { Open_Sans } from 'next/font/google'
-import TopNav from './TopNav'
+import TopNav from '@/components/TopNav'
 const open_sans = Open_Sans({ weight: ['300', '400', '500', '600', '700', '800'], subsets: ['latin'] })
 
 export const metadata: Metadata = {
