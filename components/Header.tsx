@@ -14,7 +14,7 @@ const poppins = Poppins({ weight: ['400', '500', '600', '700', '800'], subsets: 
 const Header = () => {
   return (
     <div>
-      <div className='hidden md:block md:absolute md:-left-96 md:top-0 -z-10 relative'>
+      <div className='hidden md:block md:absolute md:-left-80 md:-top-48 -z-10 relative'>
         <Image src={ellipse} alt="decore" className='-z-30' />
       </div>
       <div className='hidden md:block md:absolute md:right-0 md:top-0 -z-10 relative'>
