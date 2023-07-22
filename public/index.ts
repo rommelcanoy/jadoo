@@ -10,9 +10,9 @@ import local_events from '../public/assets/local_events.svg';
 import customization from '../public/assets/customization.svg';
 
 // Destinations
-import rome from '../public/assets/Rome.jpg';
-import london from '../public/assets/London.jpg';
-import europe from '../public/assets/Europe.jpg';
+import rome from '../public/assets/rome.jpg';
+import london from '../public/assets/london.jpg';
+import europe from '../public/assets/europe.jpg';
 
 export {
   navigation,
