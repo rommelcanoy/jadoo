@@ -14,11 +14,11 @@ const poppins = Poppins({ weight: ['400', '500', '600', '700', '800'], subsets: 
 const Header = () => {
   return (
     <div>
-      <div className='hidden md:block md:absolute md:-left-80 md:-top-48 -z-10 relative'>
+      <div className='hidden md:block md:absolute md:-left-80 md:-top-48 -z-10'>
         <Image src={ellipse} alt="decore" className='-z-30' />
       </div>
-      <div className='hidden md:block md:absolute md:right-0 md:top-0 -z-10 relative'>
-        <Image src={decore} alt="decore" className='-z-30' />
+      <div className='hidden md:block md:absolute md:right-0 md:top-0 -z-10'>
+        <Image src={decore} alt="decore" className='w-full h-full' />
       </div>
       <div className='mt-16 flex justify-between '>
         <div className='flex md:w-[632px] items-center'>
