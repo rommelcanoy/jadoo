@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 type DestinationType = {
   title: string;
-  image: string;
+  image: any;
   price: number;
   days: number;
 };
