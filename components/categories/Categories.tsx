@@ -1,5 +1,4 @@
 import React from 'react'
-import Image from 'next/image';
 import Category from './Category';
 import { categories } from '@/constants';
 import { Volkhov, Poppins } from 'next/font/google'

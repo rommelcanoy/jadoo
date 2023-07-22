@@ -2,9 +2,9 @@ import React from 'react'
 import Image from 'next/image'
 
 type CategoryType = {
-  title: string,
-  description: string,
-  logo: string,
+  title: string;
+  description: string;
+  logo: string;
 }
 
 const Category = ({ category }: { category: CategoryType }) => {
