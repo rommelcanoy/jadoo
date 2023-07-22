@@ -1,5 +1,6 @@
-import { best_flights, calculated_weather, customization, local_events } from "@/public";
+import { best_flights, calculated_weather, customization, europe, local_events, london, rome } from "@/public";
 
+// Service categories
 export const categories = [
   {
     title: 'Calculated Weather',
@@ -20,5 +21,27 @@ export const categories = [
     title: 'Customization',
     description: 'We deliver outsourced aviation services for military customers',
     logo: customization
+  },
+]
+
+// Destinations
+export const destinations = [
+  {
+    title: 'Rome, Italy',
+    image: rome,
+    price: 5200,
+    days: 10,
+  },
+  {
+    title: 'London, UK',
+    image: london,
+    price: 4200,
+    days: 12,
+  },
+  {
+    title: 'Full Europe',
+    image: europe,
+    price: 15000,
+    days: 28,
   },
 ]

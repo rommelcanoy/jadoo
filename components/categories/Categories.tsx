@@ -1,5 +1,4 @@
 import React from 'react'
-import Image from 'next/image';
 import Category from './Category';
 import { categories } from '@/constants';
 import { Volkhov, Poppins } from 'next/font/google'
@@ -11,7 +10,7 @@ const Categories = () => {
   return (
     <div className="text-center mt-28 pb-20">
       <h3 className={`uppercase text-[#5E6282] text-lg font-semibold ${poppins.className}`}>Category</h3>
-      <h2 className={`text-5xl font-bold text-[#14183E] mt-4 mb-8 ${volkhov.className}`}>We Offer Best Services</h2>
+      <h2 className={`text-5xl font-bold text-[#14183E] mt-4 mb-14 ${volkhov.className}`}>We Offer Best Services</h2>
       <div className='flex gap-12'>
         {
           categories.map((category, index) => (
