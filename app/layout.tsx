@@ -1,8 +1,8 @@
 import './globals.css'
 import type { Metadata } from 'next'
-import { Open_Sans } from 'next/font/google'
+import { Poppins } from 'next/font/google'
 import TopNav from '@/components/TopNav'
-const open_sans = Open_Sans({ weight: ['300', '400', '500', '600', '700', '800'], subsets: ['latin'] })
+const poppins = Poppins({ weight: ['400', '500', '600', '700', '800'], subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'Jadoo',
@@ -16,7 +16,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`max-w-7xl mx-auto ${open_sans.className} font-medium`}>
+      <body className={`max-w-7xl mx-auto ${poppins.className} font-medium text-[#5E6282]`}>
         <div>
           <TopNav />
         </div>
