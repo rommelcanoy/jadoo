@@ -2,6 +2,7 @@ import './globals.css'
 import type { Metadata } from 'next'
 import { Poppins } from 'next/font/google'
 import TopNav from '@/components/TopNav'
+import Footer from '@/components/Footer'
 const poppins = Poppins({ weight: ['400', '500', '600', '700', '800'], subsets: ['latin'] })
 
 export const metadata: Metadata = {
@@ -17,10 +18,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`max-w-7xl mx-auto ${poppins.className} font-medium text-[#5E6282]`}>
-        <div>
-          <TopNav />
-        </div>
+        <TopNav />
         {children}
+        <Footer />
       </body>
     </html>
   )
