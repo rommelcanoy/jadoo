@@ -1,6 +1,13 @@
 
 // Icons
 import jadoo from '../public/assets/business_logos/jadoo.svg'
+import mail from '../public/assets/mail.svg'
+import glitter_1 from '../public/assets/glitter_1.svg'
+import glitter_2 from '../public/assets/glitter_2.svg'
+import send from '../public/assets/send.svg'
+import send_2 from '../public/assets/send_2.svg'
+import spiral_1 from '../public/assets/spiral_1.svg'
+import spiral_2 from '../public/assets/spiral_2.svg'
 import navigation from '../public/assets/navigation.svg';
 import facebook from '../public/assets/facebook.svg';
 import twitter from '../public/assets/twitter.svg';
@@ -25,6 +32,13 @@ import europe from '../public/assets/europe.jpg';
 
 export {
   jadoo,
+  mail,
+  glitter_1,
+  glitter_2,
+  send,
+  send_2,
+  spiral_1,
+  spiral_2,
   navigation,
   facebook,
   twitter,

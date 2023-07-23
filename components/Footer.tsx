@@ -62,8 +62,8 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className='pt-20 text-center'>
-        <p>All rights reserved @ Rommel Canoy</p>
+      <div className='pt-20 text-center font-normal'>
+        <p>Built by Rommel Canoy</p>
       </div>
     </div>
   )
