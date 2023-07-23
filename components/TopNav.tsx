@@ -1,11 +1,13 @@
 import React from 'react'
 import Image from 'next/image'
 import jadoo from '../public/assets/business_logos/jadoo.svg'
+import { Open_Sans } from 'next/font/google'
+const open_sans = Open_Sans({ weight: ['300', '400', '500', '600', '700', '800'], subsets: ['latin'] })
 
 const TopNav = () => {
   return (
     <>
-      <div className='mx-auto flex justify-between items-center mt-5 mb-4'>
+      <div className={`mx-auto flex justify-between items-center mt-5 mb-4 ${open_sans.className} text-[#212832]`}>
         <div>
           <Image src={jadoo} alt="Jadoo Logo" className='w-[100px]' />
         </div>

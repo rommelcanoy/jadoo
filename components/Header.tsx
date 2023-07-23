@@ -6,14 +6,15 @@ import orange_decore from '../public/assets/orange_decore.svg';
 import ellipse from '../public/assets/ellipse.svg';
 import play from '../public/assets/play.svg';
 import Link from 'next/link';
-import { Volkhov, Poppins } from 'next/font/google'
+import { Volkhov, Poppins, Open_Sans } from 'next/font/google'
 
 const volkhov = Volkhov({ weight: '700', subsets: ['latin'] })
 const poppins = Poppins({ weight: ['400', '500', '600', '700', '800'], subsets: ['latin'] })
+const open_sans = Open_Sans({ weight: ['300', '400', '500', '600', '700', '800'], subsets: ['latin'] })
 
 const Header = () => {
   return (
-    <div>
+    <div className={`${open_sans.className}`}>
       <div className='hidden md:block md:absolute md:-left-80 md:-top-48 -z-10'>
         <Image src={ellipse} alt="decore" className='-z-30' />
       </div>
