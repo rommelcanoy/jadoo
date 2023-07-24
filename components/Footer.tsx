@@ -8,7 +8,7 @@ const Footer = () => {
       <div className='grid grid-cols-5 gap-10'>
         <div>
           {/* <h3 className='text-5xl text-black'>Jadoo</h3> */}
-          <Image src={jadoo} alt="Jadoo Logo" className='w-[100px] mb-5' />
+          <Image src={jadoo} alt="Jadoo Logo" className='w-[100px] mb-8' />
           <p>Book your trip in minute, get full control for much longer.</p>
         </div>
         <div>
@@ -30,7 +30,7 @@ const Footer = () => {
         <div>
           <h4 className='text-[#080809] font-bold text-xl mb-7'>More</h4>
           <ul className='text-lg flex flex-col gap-2'>
-            <li>Airlinefees</li>
+            <li>Airline fees</li>
             <li>Airline</li>
             <li>Low fare tips</li>
           </ul>
