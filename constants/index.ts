@@ -45,3 +45,24 @@ export const destinations = [
     days: 28,
   },
 ]
+
+export const testimonials = [
+  {
+    name: 'Mike Taylor',
+    title: '',
+    company: '',
+    testimony: 'On the Windows talking painted pasture yet its express parties use. Sure last upon he same as knew next. Of believed or diverted no.',
+  },
+  {
+    name: 'Chris Thomas',
+    title: 'CEO',
+    company: 'Red Button',
+    testimony: 'On the Windows talking painted pasture yet its express parties use. Sure last upon he same as knew next. Of believed or diverted no.',
+  },
+  {
+    name: 'Sarah Connor',
+    title: 'Globetrotter',
+    company: '',
+    testimony: 'After going through a number of sites, I had to settle for Jadoo because honestly it was a no brainer trying someone else.',
+  },
+]
