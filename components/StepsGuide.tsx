@@ -8,7 +8,7 @@ const poppins = Poppins({ weight: ['400', '500', '600', '700'], subsets: ['latin
 
 const StepsGuide = () => {
   return (
-    <div className='flex mb-48 gap-14 justify-around mt-12'>
+    <div className='flex mb-48 gap-14 justify-around mt-24'>
       <div className=''>
         <h3 className={`text-[#5E6282] text-lg font-semibold ${poppins.className}`}>Easy and Fast</h3>
         <h2 className={`text-5xl font-bold text-[#14183E] mt-4 mb-14 ${volkhov.className}`}>Book your next trip<br />in 3 easy steps</h2>
@@ -46,7 +46,7 @@ const StepsGuide = () => {
       <div className='flex-1 flex justify-center'>
         <div className='flex items-center relative w-[370px] h-full -mr-24'>
           <div className='rounded-3xl shadow-xl p-6 flex-none bg-white z-10'>
-            <Image src={trip_to_greece} alt="Trip to greece picture" className='rounded-3xl w-full h-40 mb-6' />
+            <Image src={trip_to_greece} alt="Trip to greece picture" className='rounded-3xl w-full h-40 mb-6 object-cover' />
             <div className='flex flex-col gap-6'>
               <div>
                 <h5 className='mb-3 text-black text-lg'>Trip To Greece</h5>
