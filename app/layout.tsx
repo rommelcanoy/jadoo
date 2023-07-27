@@ -17,10 +17,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`max-w-7xl mx-auto ${poppins.className} font-medium text-[#5E6282]`}>
+      <body className={`px-7 md:px-7 md:max-w-7xl mx-auto ${poppins.className} font-medium text-[#5E6282]`}>
         <TopNav />
         {children}
-        <Footer />
+        {/* <Footer /> */}
       </body>
     </html>
   )
