@@ -7,11 +7,11 @@ const open_sans = Open_Sans({ weight: ['300', '400', '500', '600', '700', '800']
 const TopNav = () => {
   return (
     <>
-      <div className={`mx-auto flex justify-between items-center mt-5 mb-4 ${open_sans.className} text-[#212832]`}>
+      <div className={`md:mx-auto md:flex md:justify-between items-center pt-5 pb-4 mb-8 md:mb-0 md:px-0 ${open_sans.className} text-[#212832]`}>
         <div>
           <Image src={jadoo} alt="Jadoo Logo" className='w-[100px]' />
         </div>
-        <div>
+        <div className='hidden md:block'>
           <ul className='flex gap-12 font-medium text-base items-center'>
             <li>
               <a href="#">Destinations</a>
