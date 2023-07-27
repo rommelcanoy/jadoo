@@ -5,9 +5,8 @@ import { apple, available_in_apple_store, facebook, get_it_on_google_play, googl
 const Footer = () => {
   return (
     <div className='py-20'>
-      <div className='grid grid-cols-5 gap-10'>
-        <div>
-          {/* <h3 className='text-5xl text-black'>Jadoo</h3> */}
+      <div className='grid grid-cols-1 md:grid-cols-5 gap-10 text-center md:text-left'>
+        <div className='hidden md:block'>
           <Image src={jadoo} alt="Jadoo Logo" className='w-[100px] mb-8' />
           <p>Book your trip in minute, get full control for much longer.</p>
         </div>
@@ -35,7 +34,11 @@ const Footer = () => {
             <li>Low fare tips</li>
           </ul>
         </div>
-        <div className='w-[214px]'>
+        <div className='md:hidden block'>
+          <Image src={jadoo} alt="Jadoo Logo" className='w-[100px] mb-8 mx-auto' />
+          <p className=' text-sm'>Book your trip in minute, get full control for much longer.</p>
+        </div>
+        <div className='md:w-[214px] w-full flex flex-col items-center md:block'>
           <div className='flex gap-6 mb-7'>
             <a href="#" className='w-10 h-10 flex justify-center items-center rounded-full hover:bg-gray-100 shadow-md'>
               <Image src={facebook} alt="facebook icon" />
@@ -62,7 +65,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className='pt-20 text-center font-normal'>
+      <div className='pt-12 md:pt-20 text-center font-normal'>
         <p>Built by Rommel Canoy</p>
       </div>
     </div>
