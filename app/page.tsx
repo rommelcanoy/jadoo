@@ -10,8 +10,8 @@ export default function Home() {
     <div>
       <Header />
       <Categories />
-      {/* <Destinations />
-      <StepsGuide />
+      <Destinations />
+      {/* <StepsGuide />  
       <Testimonials />
       <SubscriptionForm /> */}
     </div>
