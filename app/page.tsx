@@ -12,7 +12,7 @@ export default function Home() {
       <Categories />
       <Destinations />
       <StepsGuide />
-      <Testimonials />
+      {/* <Testimonials /> */}
       <SubscriptionForm />
     </div>
   )
