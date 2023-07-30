@@ -11,9 +11,9 @@ export default function Home() {
       <Header />
       <Categories />
       <Destinations />
-      {/* <StepsGuide />  
+      <StepsGuide />
       <Testimonials />
-      <SubscriptionForm /> */}
+      <SubscriptionForm />
     </div>
   )
 }
