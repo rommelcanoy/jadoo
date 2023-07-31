@@ -4,7 +4,7 @@ import { apple, available_in_apple_store, facebook, get_it_on_google_play, googl
 
 const Footer = () => {
   return (
-    <div className='py-20'>
+    <div className='py-10 md:py-20'>
       <div className='grid grid-cols-1 md:grid-cols-4 lg:grid-cols-5 gap-10 text-center md:text-left'>
         <div className='hidden md:block'>
           <Image src={jadoo} alt="Jadoo Logo" className='w-[100px] mb-8' />
