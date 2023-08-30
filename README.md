@@ -28,7 +28,3 @@ To run this project locally, follow these steps:
 - **Smooth Animations**: Thoughtful use of animations and transitions adds an extra layer of interactivity and engagement to the website.
 - **Call-to-Action**: Strategic placement of call-to-action buttons encourages visitors to take the desired actions, such as booking a trip or subscribing to the newsletter.
 
-## Contributing
-
-I welcome contributions to enhance the Jadoo Travel landing page further. If you find any bugs or have suggestions for improvements, please feel free to submit a pull request or open an issue.
-
